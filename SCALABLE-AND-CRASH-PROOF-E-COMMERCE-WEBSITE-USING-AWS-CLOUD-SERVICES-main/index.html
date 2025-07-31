@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wise Cart - Your Smart Shopping Partner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f3f6;
+        }
+        header {
+            background: #2874f0;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+            color: yellow;
+            letter-spacing: 1px;
+        }
+        .search-bar input {
+            padding: 8px;
+            width: 300px;
+            border: none;
+            border-radius: 4px;
+        }
+        nav {
+            background: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #2874f0;
+            font-weight: bold;
+        }
+        nav a.active {
+            border-bottom: 3px solid #2874f0;
+            padding-bottom: 5px;
+            font-weight: bold;
+            color: #000;
+        }
+        .banner {
+            background: #ffeb3b;
+            color: #000;
+            padding: 10px 0;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .promo-banner {
+           display: flex;
+           justify-content: center;
+           margin: 20px 0;
+        }
+        .promo-banner img {
+            width: 100%;
+            height: 480px;
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+
+        .category-title {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 20px 20px 0;
+            color: #333;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+        .product-card p {
+            color: green;
+            font-weight: bold;
+        }
+        .product-card .buttons {
+            margin-top: 10px;
+        }
+        .product-card button {
+            background: #ff9f00;
+            border: none;
+            padding: 8px 12px;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        footer {
+            background: #2874f0;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Wise Cart</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+        </div>
+    </header>
+    <nav>
+        <a href="#" class="active">Home</a>
+
+        <a href="#">Mobiles</a>
+        <a href="#">Fashion</a>
+        <a href="#">Electronics</a>
+        <a href="#">Appliances</a>
+        <a href="#">Grocery</a>
+    </nav>
+    <div class="banner">
+        <marquee behavior="scroll" direction="left">
+        🎉 Big Summer Sale - Up to 70% OFF on Electronics! 🔥 | Extra ₹500 Off on Fashion 👗 | Free Delivery on Groceries 🛒 | Buy 1 Get 1 Free on Select Products
+        </marquee>
+    </div>
+
+    <div class="promo-banner">
+        <img src="images/banner1.jpg" alt="Banner">
+    </div>
+
+
+    <div class="category-title">Featured Products</div>
+    <section class="products">
+
+        <div class="product-card">
+            <img src="images/runningshoes.jpg" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>₹999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/iphone.jpg" alt="Apple iphone 16 Plus">
+            <h3>Apple iphone 16 Plus</h3>
+            <p>₹84,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/lenovo.jpg" alt="Lenovo ThinkPad Laptop">
+            <h3>Lenovo ThinkPad Laptop</h3>
+            <p>₹44,990</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/boat.jpg" alt=" Boat Headphones">
+            <h3>Boat Headphones</h3>
+            <p>₹1,299</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/watch.jpg" alt="Firebolt Smartwatch">
+            <h3>Firebolt Smartwatch</h3>
+            <p>₹2,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/sony.jpg" alt="Sony LED TV 24inch">
+            <h3>Sony LED TV 24inch</h3>
+            <p>₹22,990</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/fridge.jpg" alt="Refrigerator">
+            <h3>Refrigerator</h3>
+            <p>₹18,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/Backpack.jpg" alt="Backpack">
+            <h3>Backpack</h3>
+            <p>₹799</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+    
+        <div class="product-card">
+            <img src="images/tablet.jpg" alt="Tablet">
+            <h3>Tablet</h3>
+            <p>₹9,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/camera.jpg" alt="Camera">
+            <h3>Camera</h3>
+            <p>₹23,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/printer.jpg" alt="Printer">
+            <h3>Printer</h3>
+            <p>₹5,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/monitor.jpg" alt="Monitor">
+            <h3>Monitor</h3>
+            <p>₹7,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/keyboard.jpg" alt="Keyboard">
+            <h3>Keyboard</h3>
+            <p>₹1,299</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/mouse.jpg" alt="Wireless Mouse">
+            <h3>Wireless Mouse</h3>
+            <p>₹699</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/speaker.jpg" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <p>₹1,799</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/airpods.jpg" alt="AirPods">
+            <h3>AirPods</h3>
+            <p>₹14,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/tshirt.jpg" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>₹499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/jeans.jpg" alt="Jeans">
+            <h3>Jeans</h3>
+            <p>₹1,199</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/jacket.jpg" alt="Jacket">
+            <h3>Jacket</h3>
+            <p>₹2,199</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/shirt.jpg" alt="Printed Shirt">
+            <h3>Printed Shirt</h3>
+            <p>₹1,599</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/sha.jpg" alt="Shampoo">
+            <h3>Shampoo</h3>
+            <p>₹199</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/toothbrush.jpg" alt="Electric Toothbrush">
+            <h3>Electric Toothbrush</h3>
+            <p>₹899</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/bag2.jpg" alt="Laptop Bag">
+            <h3>Laptop Bag</h3>
+            <p>₹1,499</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/blender.jpg" alt="Blender">
+            <h3>Blender</h3>
+            <p>₹2,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/iron.jpg" alt="Iron Box">
+            <h3>Iron Box</h3>
+            <p>₹1,099</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/washing_machine.jpg" alt="Washing Machine">
+            <h3>Washing Machine</h3>
+            <p>₹19,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/microwave.jpg" alt="Microwave">
+            <h3>Microwave</h3>
+            <p>₹7,999</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/fan.jpg" alt="Ceiling Fan">
+            <h3>Ceiling Fan</h3>
+            <p>₹2,199</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/light.jpg" alt="LED Light">
+            <h3>LED Light</h3>
+            <p>₹299</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/powerbank.jpg" alt="Power Bank">
+            <h3>Power Bank</h3>
+            <p>₹1,299</p>
+            <div class="buttons">
+                <button>Add to Cart</button>
+                <button style="background: #fb641b;">Buy Now</button>
+            </div>
+        </div>
+    
+    </section>
+    <footer>
+        &copy; 2025 Wise Cart. All rights reserved.
+    </footer>
+    <script>
+        const buttons = document.querySelectorAll("button");
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                alert("This feature will be available soon!");
+            });
+        });
+    </script>
+</body>
+</html>
