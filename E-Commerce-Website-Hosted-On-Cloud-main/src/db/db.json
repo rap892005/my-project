@@ -1,0 +1,2043 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Electronics"
+    },
+    {
+      "id": 2,
+      "title": "Clothing"
+    },
+    {
+      "id": 3,
+      "title": "Home & Kitchen"
+    },
+    {
+      "id": 4,
+      "title": "Books"
+    },
+    {
+      "id": 5,
+      "title": "Sports"
+    },
+    {
+      "id": 6,
+      "title": "Beauty & Health"
+    },
+    {
+      "id": 7,
+      "title": "Automotive"
+    },
+    {
+      "id": 8,
+      "title": "Toys & Games"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "catID": 1,
+      "title": "Smartphone",
+      "description": "A high-end smartphone with a powerful processor and great camera.",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SP001",
+      "price": 699.99,
+      "sku": "SP001-100",
+      "specs": [
+        "dimensions: 6.5 x 3 x 0.3 inches",
+        "weight: 0.4 lbs",
+        "screen: 6.7 inch AMOLED",
+        "processor: Qualcomm Snapdragon 888",
+        "storage: 128GB",
+        "battery: 4500mAh",
+        "material: Aluminum body, Gorilla Glass",
+        "quality: High-end flagship"
+      ],
+      "features": [
+        "High performance",
+        "64 MP camera",
+        "Fast charging",
+        "5G support",
+        "Water-resistant"
+      ],
+      "stock": 50
+    },
+    {
+      "id": 102,
+      "catID": 1,
+      "title": "Laptop",
+      "description": "A sleek laptop with a 15.6-inch display, perfect for work and play.",
+      "image": "https://images.pexels.com/photos/1712/laptop-apple-computer-technology.jpg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "LP002",
+      "price": 999.99,
+      "sku": "LP002-200",
+      "specs": [
+        "dimensions: 14.1 x 9.6 x 0.7 inches",
+        "weight: 4.5 lbs",
+        "storage: 512GB SSD",
+        "ram: 8GB",
+        "screen: 15.6-inch Full HD",
+        "processor: Intel i7 10th Gen",
+        "battery: 10 hours",
+        "material: Aluminum"
+      ],
+      "features": [
+        "Fast processing",
+        "Ultra-thin design",
+        "Long battery life",
+        "Backlit keyboard",
+        "Fingerprint reader"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 103,
+      "catID": 1,
+      "title": "Wireless Headphones",
+      "description": "Noise-canceling wireless headphones for clear sound and comfort.",
+      "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "WH003",
+      "price": 149.99,
+      "sku": "WH003-300",
+      "specs": [
+        "dimensions: 7.8 x 7.8 x 3.1 inches",
+        "weight: 0.7 lbs",
+        "battery: 20 hours of playtime",
+        "bluetooth: 5.0",
+        "charging time: 2 hours",
+        "driver: 40mm dynamic",
+        "material: Memory foam ear pads, plastic",
+        "quality: Premium audio performance"
+      ],
+      "features": [
+        "Noise-canceling",
+        "Comfortable ear pads",
+        "Foldable design",
+        "High-quality audio",
+        "Built-in microphone"
+      ],
+      "stock": 100
+    },
+    {
+      "id": 104,
+      "catID": 1,
+      "title": "Smartwatch",
+      "description": "A smartwatch that monitors your health and keeps you connected.",
+      "image": "https://images.pexels.com/photos/2115873/pexels-photo-2115873.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SW004",
+      "price": 249.99,
+      "sku": "SW004-400",
+      "specs": [
+        "dimensions: 1.7 x 1.5 x 0.5 inches",
+        "weight: 0.1 lbs",
+        "battery: 48 hours",
+        "display: 1.4-inch AMOLED",
+        "processor: Dual-core",
+        "water-resistant: IP68",
+        "material: Aluminum body",
+        "sensor: Heart rate, GPS"
+      ],
+      "features": [
+        "Heart rate monitoring",
+        "GPS",
+        "Notifications",
+        "Sleep tracking",
+        "Customizable watch faces"
+      ],
+      "stock": 75
+    },
+    {
+      "id": 105,
+      "catID": 1,
+      "title": "Tablet",
+      "description": "A versatile tablet for browsing, streaming, and productivity.",
+      "image": "https://images.pexels.com/photos/941474/pexels-photo-941474.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TB005",
+      "price": 349.99,
+      "sku": "TB005-500",
+      "specs": [
+        "dimensions: 9.8 x 6.8 x 0.3 inches",
+        "weight: 1 lb",
+        "screen: 10.1 inch LCD",
+        "storage: 64GB",
+        "battery: 12 hours",
+        "processor: Quad-core",
+        "material: Plastic body",
+        "resolution: 1920x1200"
+      ],
+      "features": [
+        "High resolution display",
+        "Ample storage",
+        "Portable design",
+        "Long battery life",
+        "Supports stylus input"
+      ],
+      "stock": 60
+    },
+    {
+      "id": 106,
+      "catID": 1,
+      "title": "Digital Camera",
+      "description": "A high-resolution digital camera for capturing stunning photos and videos.",
+      "image": "https://images.pexels.com/photos/260657/pexels-photo-260657.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DC006",
+      "price": 499.99,
+      "sku": "DC006-600",
+      "specs": [
+        "resolution: 24MP",
+        "zoom: 10x optical zoom",
+        "screen: 3-inch LCD",
+        "battery: 600 shots",
+        "memory: SD/SDHC",
+        "material: Plastic, metal",
+        "video: 4K recording",
+        "weight: 0.9 lbs"
+      ],
+      "features": [
+        "Image stabilization",
+        "4K video recording",
+        "10x optical zoom",
+        "Wi-Fi connectivity",
+        "Compact design"
+      ],
+      "stock": 45
+    },
+    {
+      "id": 107,
+      "catID": 1,
+      "title": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with loud and clear sound.",
+      "image": "https://images.pexels.com/photos/1309931/pexels-photo-1309931.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BS007",
+      "price": 79.99,
+      "sku": "BS007-700",
+      "specs": [
+        "dimensions: 3 x 3 x 6 inches",
+        "weight: 0.8 lbs",
+        "battery: 12 hours",
+        "bluetooth: 5.0",
+        "waterproof: IPX7",
+        "material: Rubberized plastic",
+        "charging time: 3 hours",
+        "sound: 360-degree"
+      ],
+      "features": [
+        "Waterproof",
+        "Wireless",
+        "360-degree sound",
+        "Portable",
+        "Built-in microphone"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 108,
+      "catID": 1,
+      "title": "Gaming Console",
+      "description": "The latest gaming console for immersive gaming experiences.",
+      "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "GC008",
+      "price": 399.99,
+      "sku": "GC008-800",
+      "specs": [
+        "storage: 1TB SSD",
+        "ram: 16GB",
+        "processor: AMD Ryzen",
+        "gpu: Nvidia RTX",
+        "connectivity: Wi-Fi, Bluetooth",
+        "ports: 3x USB 3.0, HDMI 2.0",
+        "material: Plastic",
+        "weight: 6.5 lbs"
+      ],
+      "features": [
+        "High-performance graphics",
+        "Large game library",
+        "VR support",
+        "Wi-Fi 6",
+        "Multi-controller support"
+      ],
+      "stock": 40
+    },
+    {
+      "id": 109,
+      "catID": 1,
+      "title": "USB Drive",
+      "description": "A portable USB drive for storing and transferring files.",
+      "image": "https://images.pexels.com/photos/6962/disk-usb-storage-data.jpg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "UD009",
+      "price": 9.99,
+      "sku": "UD009-900",
+      "specs": [
+        "capacity: 64GB",
+        "read speed: 150MB/s",
+        "write speed: 50MB/s",
+        "interface: USB 3.0",
+        "material: Metal casing",
+        "weight: 0.1 oz",
+        "durability: Shockproof",
+        "compatibility: Windows, Mac"
+      ],
+      "features": [
+        "Compact",
+        "High-speed data transfer",
+        "Shockproof",
+        "Plug-and-play",
+        "Durable casing"
+      ],
+      "stock": 200
+    },
+    {
+      "id": 201,
+      "catID": 2,
+      "title": "T-Shirt",
+      "description": "A cotton T-shirt, perfect for casual outings or lounging.",
+      "image": "https://images.pexels.com/photos/2029684/pexels-photo-2029684.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TS004",
+      "price": 19.99,
+      "sku": "TS004-400",
+      "specs": [
+        "size: S, M, L, XL",
+        "material: 100% cotton",
+        "color: white, black, grey",
+        "fit: Regular",
+        "wash care: Machine washable",
+        "collar: Round neck",
+        "weight: 0.3 lbs",
+        "quality: Soft and breathable"
+      ],
+      "features": [
+        "Comfortable",
+        "Breathable fabric",
+        "Stylish design",
+        "Durable",
+        "Variety of colors"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 202,
+      "catID": 2,
+      "title": "Jeans",
+      "description": "Comfortable denim jeans for everyday wear.",
+      "image": "https://images.pexels.com/photos/9598425/pexels-photo-9598425.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "JN005",
+      "price": 39.99,
+      "sku": "JN005-500",
+      "specs": [
+        "size: '28-34'",
+        "material: 'denim'",
+        "color: 'blue, black'",
+        "waist: 'mid-rise'",
+        "fit: 'slim'",
+        "length: '30-32 inches'",
+        "weight: '500g'"
+      ],
+      "features": [
+        "Stretchable",
+        "Comfortable fit",
+        "Breathable",
+        "Durable",
+        "Easy to care for"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 203,
+      "catID": 2,
+      "title": "Sneakers",
+      "description": "Stylish sneakers for everyday wear with great comfort.",
+      "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SN006",
+      "price": 49.99,
+      "sku": "SN006-600",
+      "specs": [
+        "size: '6-12'",
+        "material: 'rubber sole'",
+        "color: 'black, white'",
+        "heel height: 'flat'",
+        "weight: '400g'",
+        "breathable: 'yes'",
+        "closure: 'lace-up'"
+      ],
+      "features": [
+        "Breathable",
+        "Shock absorbent",
+        "Stylish",
+        "Lightweight",
+        "Comfortable"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 204,
+      "catID": 2,
+      "title": "Dress",
+      "description": "Elegant dress for special occasions or events.",
+      "image": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DR007",
+      "price": 79.99,
+      "sku": "DR007-700",
+      "specs": [
+        "size: 'XS, S, M, L'",
+        "material: 'silk, cotton'",
+        "color: 'red, black, blue'",
+        "length: 'knee-length'",
+        "fit: 'loose'",
+        "weight: '300g'",
+        "care: 'dry clean only'"
+      ],
+      "features": [
+        "Comfortable",
+        "Stylish",
+        "Elegant",
+        "Soft to the touch",
+        "Breathable"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 205,
+      "catID": 2,
+      "title": "Jacket",
+      "description": "Warm and fashionable jacket for cold weather.",
+      "image": "https://images.pexels.com/photos/1678547/pexels-photo-1678547.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "JK008",
+      "price": 99.99,
+      "sku": "JK008-800",
+      "specs": [
+        "size: 'S, M, L, XL'",
+        "material: 'leather, polyester'",
+        "color: 'brown, black'",
+        "insulation: 'thermal lining'",
+        "zipper type: 'full-length'",
+        "pockets: '4'",
+        "weight: '1.2kg'"
+      ],
+      "features": [
+        "Stylish",
+        "Windproof",
+        "Warm",
+        "Durable",
+        "Water-resistant"
+      ],
+      "stock": 65
+    },
+    {
+      "id": 206,
+      "catID": 2,
+      "title": "Sweater",
+      "description": "Cozy and comfortable sweater for a relaxed look.",
+      "image": "https://images.pexels.com/photos/207489/pexels-photo-207489.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SW009",
+      "price": 59.99,
+      "sku": "SW009-900",
+      "specs": [
+        "size: 'S, M, L, XL'",
+        "material: 'cotton, wool'",
+        "color: 'gray, blue, black'",
+        "weight: '600g'",
+        "fit: 'regular'",
+        "care: 'machine wash cold'"
+      ],
+      "features": [
+        "Soft",
+        "Warm",
+        "Breathable",
+        "Cozy fit",
+        "Comfortable"
+      ],
+      "stock": 110
+    },
+    {
+      "id": 207,
+      "catID": 2,
+      "title": "Blouse",
+      "description": "Elegant and stylish blouse for formal or casual occasions.",
+      "image": "https://images.pexels.com/photos/5480690/pexels-photo-5480690.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BL010",
+      "price": 45.99,
+      "sku": "BL010-1000",
+      "specs": [
+        "size: 'S, M, L, XL'",
+        "material: 'silk, rayon'",
+        "color: 'white, black, pink'",
+        "sleeve length: 'long'",
+        "neckline: 'v-neck'",
+        "weight: '250g'",
+        "care: 'hand wash only'"
+      ],
+      "features": [
+        "Lightweight",
+        "Comfortable",
+        "Elegant",
+        "Soft",
+        "Breathable"
+      ],
+      "stock": 85
+    },
+    {
+      "id": 208,
+      "catID": 2,
+      "title": "Shorts",
+      "description": "Comfortable and versatile shorts for summer activities.",
+      "image": "https://images.pexels.com/photos/1822604/pexels-photo-1822604.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SH011",
+      "price": 29.99,
+      "sku": "SH011-1100",
+      "specs": [
+        "size: 'S, M, L, XL'",
+        "material: 'cotton, denim'",
+        "color: 'blue, khaki'",
+        "length: 'knee-length'",
+        "weight: '200g'",
+        "fit: 'loose'",
+        "care: 'machine wash'"
+      ],
+      "features": [
+        "Lightweight",
+        "Breathable",
+        "Comfortable fit",
+        "Versatile",
+        "Stylish"
+      ],
+      "stock": 130
+    },
+    {
+      "id": 209,
+      "catID": 2,
+      "title": "Socks",
+      "description": "Comfortable and durable socks for everyday wear.",
+      "image": "https://images.pexels.com/photos/1277357/pexels-photo-1277357.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SO012",
+      "price": 9.99,
+      "sku": "SO012-1200",
+      "specs": [
+        "size: 'S, M, L'",
+        "material: 'cotton, nylon'",
+        "color: 'white, black, gray'",
+        "weight: '50g'",
+        "stretchable: 'yes'",
+        "moisture-wicking: 'yes'"
+      ],
+      "features": [
+        "Breathable",
+        "Moisture-wicking",
+        "Durable",
+        "Soft",
+        "Stretchable"
+      ],
+      "stock": 250
+    },
+    {
+      "id": 301,
+      "catID": 3,
+      "title": "Microwave Oven",
+      "description": "Compact microwave oven with multiple power settings for quick cooking.",
+      "image": "https://images.pexels.com/photos/7685327/pexels-photo-7685327.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "MW007",
+      "price": 89.99,
+      "sku": "MW007-700",
+      "specs": [
+        "dimensions: '15 x 11 x 8 inches'",
+        "capacity: '1.5 cu.ft.'",
+        "power: '1000W'",
+        "material: 'stainless steel'",
+        "color: 'silver'",
+        "weight: '15lbs'",
+        "features: 'easy clean'"
+      ],
+      "features": [
+        "Multiple power levels",
+        "Energy efficient",
+        "Compact",
+        "Quick cook",
+        "Easy to clean"
+      ],
+      "stock": 60
+    },
+    {
+      "id": 302,
+      "catID": 3,
+      "title": "Blender",
+      "description": "A powerful blender perfect for smoothies and soups.",
+      "image": "https://images.pexels.com/photos/4681339/pexels-photo-4681339.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BL008",
+      "price": 49.99,
+      "sku": "BL008-800",
+      "specs": [
+        "capacity: '1.5L'",
+        "power: '500W'",
+        "material: 'plastic'",
+        "color: 'black, silver'",
+        "weight: '3lbs'",
+        "blades: 'stainless steel'",
+        "settings: '3-speed control'"
+      ],
+      "features": [
+        "Quick blend",
+        "Easy to clean",
+        "Powerful motor",
+        "Compact",
+        "Versatile"
+      ],
+      "stock": 75
+    },
+    {
+      "id": 303,
+      "catID": 3,
+      "title": "Vacuum Cleaner",
+      "description": "A lightweight and powerful vacuum cleaner for home use.",
+      "image": "https://images.pexels.com/photos/414870/pexels-photo-414870.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "VC009",
+      "price": 129.99,
+      "sku": "VC009-900",
+      "specs": [
+        "dimensions: '12 x 9 x 7 inches'",
+        "weight: '3.5 lbs'",
+        "cordLength: '20ft'",
+        "suctionPower: '1200W'",
+        "color: 'blue, gray'"
+      ],
+      "features": [
+        "Lightweight",
+        "Powerful suction",
+        "Easy maneuverability",
+        "Compact design",
+        "Low maintenance"
+      ],
+      "stock": 50
+    },
+    {
+      "id": 304,
+      "catID": 3,
+      "title": "Coffee Maker",
+      "description": "Automatic coffee maker for brewing fresh coffee every morning.",
+      "image": "https://images.pexels.com/photos/416451/pexels-photo-416451.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CM010",
+      "price": 59.99,
+      "sku": "CM010-1000",
+      "specs": [
+        "capacity: '12 cups'",
+        "power: '900W'",
+        "material: 'plastic, stainless steel'",
+        "color: 'black, white'",
+        "programmable timer: 'yes'",
+        "automatic shutoff: 'yes'"
+      ],
+      "features": [
+        "Programmable timer",
+        "Automatic shutoff",
+        "Easy to clean",
+        "Brews quickly",
+        "Durable"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 305,
+      "catID": 3,
+      "title": "Toaster",
+      "description": "Two-slice toaster with multiple browning settings.",
+      "image": "https://images.pexels.com/photos/675932/pexels-photo-675932.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TO011",
+      "price": 29.99,
+      "sku": "TO011-1100",
+      "specs": [
+        "slots: '2'",
+        "settings: '7 browning levels'",
+        "material: 'plastic'",
+        "color: 'white, black'",
+        "weight: '2lbs'",
+        "cordLength: '1m'"
+      ],
+      "features": [
+        "Easy to clean",
+        "Bagel setting",
+        "Adjustable browning",
+        "Compact",
+        "Fast toast"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 306,
+      "catID": 3,
+      "title": "Cutting Board",
+      "description": "Durable cutting board for all your food preparation needs.",
+      "image": "https://images.pexels.com/photos/768472/pexels-photo-768472.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CB012",
+      "price": 15.99,
+      "sku": "CB012-1200",
+      "specs": [
+        "dimensions: '12 x 16 inches'",
+        "material: 'wood, plastic'",
+        "color: 'natural wood, black'",
+        "weight: '1lb'",
+        "easy to clean: 'yes'",
+        "odor-resistant: 'yes'"
+      ],
+      "features": [
+        "Durable",
+        "Easy to clean",
+        "Odor-resistant",
+        "Scratch-resistant",
+        "Versatile"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 307,
+      "catID": 3,
+      "title": "Dinnerware Set",
+      "description": "Complete dinnerware set for everyday dining and special occasions.",
+      "image": "https://images.pexels.com/photos/3757141/pexels-photo-3757141.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DS013",
+      "price": 149.99,
+      "sku": "DS013-1300",
+      "specs": [
+        "pieces: '20'",
+        "material: 'ceramic, porcelain'",
+        "color: 'white, gold trim'",
+        "dishwasher safe: 'yes'",
+        "microwave safe: 'yes'"
+      ],
+      "features": [
+        "Dishwasher safe",
+        "Microwave safe",
+        "Elegant",
+        "Durable",
+        "Complete set"
+      ],
+      "stock": 45
+    },
+    {
+      "id": 308,
+      "catID": 3,
+      "title": "Cookware Set",
+      "description": "Comprehensive cookware set for all your cooking needs.",
+      "image": "https://images.pexels.com/photos/2061393/pexels-photo-2061393.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CS014",
+      "price": 199.99,
+      "sku": "CS014-1400",
+      "specs": [
+        "pieces: '10'",
+        "material: 'stainless steel, non-stick'",
+        "color: 'silver, black'",
+        "oven safe: 'yes'",
+        "dishwasher safe: 'yes'"
+      ],
+      "features": [
+        "Oven safe",
+        "Dishwasher safe",
+        "Durable",
+        "Non-stick",
+        "Complete set"
+      ],
+      "stock": 30
+    },
+    {
+      "id": 309,
+      "catID": 3,
+      "title": "Food Storage Containers",
+      "description": "Airtight food storage containers to keep your food fresh.",
+      "image": "https://images.pexels.com/photos/1070055/pexels-photo-1070055.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "FS015",
+      "price": 24.99,
+      "sku": "FS015-1500",
+      "specs": [
+        "pieces: '12'",
+        "material: 'plastic, glass'",
+        "color: 'clear, white'",
+        "airtight: 'yes'",
+        "BPA-free: 'yes'",
+        "freezer safe: 'yes'"
+      ],
+      "features": [
+        "Airtight",
+        "BPA-free",
+        "Dishwasher safe",
+        "Microwave safe",
+        "Durable"
+      ],
+      "stock": 200
+    },
+    {
+      "id": 401,
+      "catID": 4,
+      "title": "Fiction Novel",
+      "description": "A gripping fiction novel that keeps you hooked till the last page.",
+      "image": "https://images.pexels.com/photos/695744/pexels-photo-695744.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "FN010",
+      "price": 14.99,
+      "sku": "FN010-1000",
+      "specs": [
+        "pages: '300'",
+        "author: 'John Doe'",
+        "paperQuality: 'High-quality paper'",
+        "coverMaterial: 'Hardcover'",
+        "font: 'Serif'",
+        "dimensions: '6 x 9 inches'",
+        "weight: '1.2 lbs'"
+      ],
+      "features": [
+        "Thrilling plot",
+        "Captivating characters",
+        "Engaging narrative",
+        "Twists and turns",
+        "Perfect for mystery lovers"
+      ],
+      "stock": 200
+    },
+    {
+      "id": 402,
+      "catID": 4,
+      "title": "Self-Help Book",
+      "description": "A self-help book filled with practical tips to improve your personal and professional life.",
+      "image": "https://images.pexels.com/photos/3359726/pexels-photo-3359726.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SHB011",
+      "price": 19.99,
+      "sku": "SHB011-1100",
+      "specs": [
+        "pages: '250'",
+        "author: 'Jane Smith'",
+        "paperQuality: 'Premium quality'",
+        "coverMaterial: 'Softcover'",
+        "motivationalQuotes: 'Yes'",
+        "dimensions: '5.5 x 8.5 inches'",
+        "weight: '0.8 lbs'"
+      ],
+      "features": [
+        "Inspiring",
+        "Practical advice",
+        "Real-life examples",
+        "Self-reflection exercises",
+        "Clear actionable steps"
+      ],
+      "stock": 300
+    },
+    {
+      "id": 403,
+      "catID": 4,
+      "title": "Science Textbook",
+      "description": "A comprehensive science textbook covering fundamental concepts in physics, chemistry, and biology.",
+      "image": "https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "ST012",
+      "price": 29.99,
+      "sku": "ST012-1200",
+      "specs": [
+        "pages: '500'",
+        "author: 'James Lee'",
+        "coverMaterial: 'Hardcover'",
+        "paperQuality: 'Glossy pages'",
+        "illustrations: 'Diagrams and Charts'",
+        "dimensions: '8 x 10 inches'",
+        "weight: '3.5 lbs'"
+      ],
+      "features": [
+        "Clear explanations",
+        "Thorough coverage",
+        "Detailed diagrams",
+        "Practical examples",
+        "Easy to understand"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 404,
+      "catID": 4,
+      "title": "History Book",
+      "description": "A detailed book that covers the history of human civilization.",
+      "image": "https://images.pexels.com/photos/207651/pexels-photo-207651.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "HB013",
+      "price": 24.99,
+      "sku": "HB013-1300",
+      "specs": [
+        "pages: '450'",
+        "author: 'Emily White'",
+        "coverMaterial: 'Paperback'",
+        "paperQuality: 'Matte finish'",
+        "dimensions: '7.5 x 10 inches'",
+        "weight: '2.8 lbs'",
+        "publishedYear: '2020'"
+      ],
+      "features": [
+        "Comprehensive",
+        "Insightful",
+        "Chronological coverage",
+        "Well-researched",
+        "Includes historical timelines"
+      ],
+      "stock": 180
+    },
+    {
+      "id": 405,
+      "catID": 4,
+      "title": "Cookbook",
+      "description": "A collection of delicious recipes for all skill levels.",
+      "image": "https://images.pexels.com/photos/6147185/pexels-photo-6147185.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CB014",
+      "price": 22.99,
+      "sku": "CB014-1400",
+      "specs": [
+        "recipes: '100+'",
+        "cuisine: 'Various'",
+        "coverMaterial: 'Hardcover'",
+        "paperQuality: 'Glossy'",
+        "dimensions: '8 x 11 inches'",
+        "weight: '2.2 lbs'",
+        "author: 'Sophia Green'"
+      ],
+      "features": [
+        "Easy-to-follow",
+        "Diverse recipes",
+        "Step-by-step instructions",
+        "Beautiful food photography",
+        "Perfect for beginners and experts"
+      ],
+      "stock": 220
+    },
+    {
+      "id": 406,
+      "catID": 4,
+      "title": "Poetry Collection",
+      "description": "A beautiful anthology of classic and contemporary poems.",
+      "image": "https://images.pexels.com/photos/2139810/pexels-photo-2139810.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "PC015",
+      "price": 17.99,
+      "sku": "PC015-1500",
+      "specs": [
+        "poems: '200+'",
+        "authors: 'Various'",
+        "coverMaterial: 'Softcover'",
+        "paperQuality: 'Premium'",
+        "dimensions: '6 x 8 inches'",
+        "weight: '1 lb'"
+      ],
+      "features": [
+        "Thought-provoking",
+        "Inspiring",
+        "Diverse collection",
+        "Classic and modern poets",
+        "Perfect for poetry lovers"
+      ],
+      "stock": 250
+    },
+    {
+      "id": 407,
+      "catID": 4,
+      "title": "Travel Guide",
+      "description": "A comprehensive guide to the most popular tourist destinations.",
+      "image": "https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TG016",
+      "price": 27.99,
+      "sku": "TG016-1600",
+      "specs": [
+        "destinations: 'Worldwide'",
+        "coverMaterial: 'Paperback'",
+        "paperQuality: 'Matte'",
+        "dimensions: '7 x 10 inches'",
+        "weight: '1.5 lbs'",
+        "author: 'Peter Miller'",
+        "mapsIncluded: 'Yes'"
+      ],
+      "features": [
+        "Detailed maps",
+        "Travel tips",
+        "Comprehensive coverage",
+        "Must-see locations",
+        "Recommendations from experts"
+      ],
+      "stock": 170
+    },
+    {
+      "id": 408,
+      "catID": 4,
+      "title": "Biography",
+      "description": "An inspiring biography of a prominent historical figure.",
+      "image": "https://images.pexels.com/photos/768107/pexels-photo-768107.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BG017",
+      "price": 21.99,
+      "sku": "BG017-1700",
+      "specs": [
+        "pages: '350'",
+        "subject: 'Historical Figure'",
+        "coverMaterial: 'Hardcover'",
+        "paperQuality: 'Glossy'",
+        "dimensions: '6.5 x 9 inches'",
+        "weight: '2 lbs'",
+        "publishedYear: '2021'"
+      ],
+      "features": [
+        "Informative",
+        "Insightful",
+        "Well-researched",
+        "Inspiring life story",
+        "Includes rare photos"
+      ],
+      "stock": 200
+    },
+    {
+      "id": 409,
+      "catID": 4,
+      "title": "Children's Book",
+      "description": "A fun and educational book for young children.",
+      "image": "https://images.pexels.com/photos/574154/pexels-photo-574154.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CB018",
+      "price": 12.99,
+      "sku": "CB018-1800",
+      "specs": [
+        "pages: '50'",
+        "ageRange: '3-7'",
+        "coverMaterial: 'Hardcover'",
+        "paperQuality: 'Durable'",
+        "dimensions: '8 x 8 inches'",
+        "weight: '0.6 lbs'"
+      ],
+      "features": [
+        "Colorful illustrations",
+        "Engaging story",
+        "Educational content",
+        "Perfect for early readers",
+        "Interactive elements"
+      ],
+      "stock": 300
+    },
+    {
+      "id": 410,
+      "catID": 4,
+      "title": "Art Book",
+      "description": "A visual feast showcasing the works of famous artists.",
+      "image": "https://images.pexels.com/photos/3199650/pexels-photo-3199650.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "AB019",
+      "price": 35.99,
+      "sku": "AB019-1900",
+      "specs": [
+        "pages: '200'",
+        "artists: 'Various'",
+        "coverMaterial: 'Hardcover'",
+        "paperQuality: 'Glossy'",
+        "dimensions: '9 x 12 inches'",
+        "weight: '2.5 lbs'"
+      ],
+      "features": [
+        "Stunning artwork",
+        "High-quality prints",
+        "Comprehensive artist profiles",
+        "Perfect for art enthusiasts",
+        "Full-color images"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 501,
+      "catID": 5,
+      "title": "Basketball",
+      "description": "Official size and weight basketball for indoor and outdoor play.",
+      "image": "https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BB020",
+      "price": 29.99,
+      "sku": "BB020-2000",
+      "specs": [
+        "size: '7'",
+        "material: 'Rubber'",
+        "weight: '22 oz'",
+        "circumference: '29.5 inches'",
+        "grip: 'Deep channel'"
+      ],
+      "features": [
+        "Durable",
+        "Good grip",
+        "Official size and weight",
+        "For indoor and outdoor use",
+        "Perfect for all skill levels"
+      ],
+      "stock": 100
+    },
+    {
+      "id": 502,
+      "catID": 5,
+      "title": "Tennis Racquet",
+      "description": "Lightweight tennis racquet for beginner to intermediate players.",
+      "image": "https://images.pexels.com/photos/697502/pexels-photo-697502.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TR021",
+      "price": 79.99,
+      "sku": "TR021-2100",
+      "specs": [
+        "weight: '10 oz'",
+        "gripSize: '4 1/4'",
+        "material: 'Graphite composite'",
+        "stringPattern: '16x19'",
+        "length: '27 inches'"
+      ],
+      "features": [
+        "Easy to handle",
+        "Good control",
+        "Lightweight design",
+        "Comfortable grip",
+        "Suitable for beginners and intermediates"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 503,
+      "catID": 5,
+      "title": "Yoga Mat",
+      "description": "Non-slip yoga mat for comfortable and safe workouts.",
+      "image": "https://images.pexels.com/photos/3872373/pexels-photo-3872373.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "YM022",
+      "price": 24.99,
+      "sku": "YM022-2200",
+      "specs": [
+        "dimensions: '68 x 24 inches'",
+        "thickness: '6mm'",
+        "material: 'TPE'",
+        "non-slip surface: 'Yes'",
+        "weight: '2.5 lbs'"
+      ],
+      "features": [
+        "Non-slip",
+        "Durable",
+        "Lightweight",
+        "Eco-friendly",
+        "Perfect for all types of workouts"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 504,
+      "catID": 5,
+      "title": "Dumbbell Set",
+      "description": "Adjustable dumbbell set for home workouts.",
+      "image": "https://images.pexels.com/photos/4059496/pexels-photo-4059496.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DS023",
+      "price": 149.99,
+      "sku": "DS023-2300",
+      "specs": [
+        "weightRange: '5-50 lbs'",
+        "material: 'Cast iron'",
+        "grip: 'Textured rubber'",
+        "adjustable: 'Yes'",
+        "dimensions: '20 x 10 x 10 inches'"
+      ],
+      "features": [
+        "Adjustable",
+        "Durable",
+        "Comfortable grip",
+        "Space-saving design",
+        "Perfect for home workouts"
+      ],
+      "stock": 60
+    },
+    {
+      "id": 505,
+      "catID": 5,
+      "title": "Running Shoes",
+      "description": "Comfortable and supportive running shoes for daily runs.",
+      "image": "https://images.pexels.com/photos/4042754/pexels-photo-4042754.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "RS024",
+      "price": 99.99,
+      "sku": "RS024-2400",
+      "specs": [
+        "Size: '7-13'",
+        "Material: 'Mesh'",
+        "Sole Material: 'Rubber'",
+        "Weight: '0.5 kg per pair'",
+        "Heel Height: '1 inch'",
+        "Width: 'Medium'"
+      ],
+      "features": [
+        "Breathable",
+        "Shock-absorbing",
+        "Durable",
+        "Non-slip sole",
+        "Lightweight"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 506,
+      "catID": 5,
+      "title": "Baseball Bat",
+      "description": "Aluminum baseball bat for recreational play.",
+      "image": "https://images.pexels.com/photos/456634/pexels-photo-456634.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BT025",
+      "price": 59.99,
+      "sku": "BT025-2500",
+      "specs": [
+        "Length: '32 inches'",
+        "Weight: '28 oz'",
+        "Material: 'Aluminum'",
+        "Grip: 'Rubberized'",
+        "Barrel Diameter: '2.5 inches'",
+        "Finish: 'Matte'"
+      ],
+      "features": [
+        "Durable",
+        "Lightweight",
+        "Perfect for beginners",
+        "High-performance",
+        "Comfortable grip"
+      ],
+      "stock": 70
+    },
+    {
+      "id": 507,
+      "catID": 5,
+      "title": "Soccer Ball",
+      "description": "Official size and weight soccer ball for matches and practice.",
+      "image": "https://images.pexels.com/photos/1567344/pexels-photo-1567344.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SB026",
+      "price": 34.99,
+      "sku": "SB026-2600",
+      "specs": [
+        "Size: '5'",
+        "Material: 'Synthetic Leather'",
+        "Weight: '410-450 grams'",
+        "Circumference: '68-70 cm'",
+        "Bladder Type: 'Rubber'"
+      ],
+      "features": [
+        "Durable",
+        "Good grip",
+        "High bounce consistency",
+        "Water-resistant",
+        "Ideal for practice and matches"
+      ],
+      "stock": 110
+    },
+    {
+      "id": 508,
+      "catID": 5,
+      "title": "Badminton Set",
+      "description": "Complete badminton set with racquets, shuttlecocks, and net.",
+      "image": "https://images.pexels.com/photos/1168937/pexels-photo-1168937.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BS027",
+      "price": 69.99,
+      "sku": "BS027-2700",
+      "specs": [
+        "Racquets: '2'",
+        "Shuttlecocks: '3'",
+        "Net: '1'",
+        "Material: 'Lightweight Aluminum'",
+        "Net Size: '20 x 2.5 feet'"
+      ],
+      "features": [
+        "Complete set",
+        "Easy to set up",
+        "Durable shuttlecocks",
+        "Ergonomic racquet grip",
+        "Portable carry bag"
+      ],
+      "stock": 50
+    },
+    {
+      "id": 509,
+      "catID": 5,
+      "title": "Swimming Goggles",
+      "description": "Comfortable and leak-proof swimming goggles for clear vision underwater.",
+      "image": "https://images.pexels.com/photos/1049564/pexels-photo-1049564.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SG028",
+      "price": 19.99,
+      "sku": "SG028-2800",
+      "specs": [
+        "Material: 'Silicone'",
+        "Lens: 'Anti-fog'",
+        "Size: 'One-size fits all'",
+        "Strap: 'Adjustable'",
+        "UV Protection: 'Yes'"
+      ],
+      "features": [
+        "Comfortable",
+        "Leak-proof",
+        "Wide vision",
+        "Anti-fog technology",
+        "UV protection"
+      ],
+      "stock": 130
+    },
+    {
+      "id": 510,
+      "catID": 5,
+      "title": "Jump Rope",
+      "description": "Adjustable jump rope for cardio workouts.",
+      "image": "https://images.pexels.com/photos/3822629/pexels-photo-3822629.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "JR029",
+      "price": 14.99,
+      "sku": "JR029-2900",
+      "specs": [
+        "Length: 'Adjustable'",
+        "Material: 'PVC'",
+        "Handle Material: 'Foam'",
+        "Weight: '0.3 kg'",
+        "Color: 'Red'"
+      ],
+      "features": [
+        "Lightweight",
+        "Durable",
+        "Adjustable length",
+        "Comfortable foam handles",
+        "Tangle-free design"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 601,
+      "catID": 6,
+      "title": "Shampoo",
+      "description": "Nourishing shampoo for healthy and shiny hair.",
+      "image": "https://images.pexels.com/photos/4064940/pexels-photo-4064940.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SH030",
+      "price": 12.99,
+      "sku": "SH030-3000",
+      "specs": [
+        "Size: '16 oz'",
+        "Ingredients: 'Natural'",
+        "Fragrance: 'Lavender'",
+        "Type: 'Sulfate-free'",
+        "Color: 'Clear'"
+      ],
+      "features": [
+        "Nourishing",
+        "Gentle",
+        "Moisturizing",
+        "Natural ingredients",
+        "Suitable for all hair types"
+      ],
+      "stock": 180
+    },
+    {
+      "id": 602,
+      "catID": 6,
+      "title": "Lotion",
+      "description": "Hydrating lotion for soft and smooth skin.",
+      "image": "https://images.pexels.com/photos/6320300/pexels-photo-6320300.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "LO031",
+      "price": 9.99,
+      "sku": "LO031-3100",
+      "specs": [
+        "Size: '12 oz'",
+        "Ingredients: 'Natural'",
+        "Texture: 'Non-greasy'",
+        "Fragrance: 'Citrus'",
+        "Suitable for: 'All skin types'"
+      ],
+      "features": [
+        "Hydrating",
+        "Non-greasy",
+        "Fast absorbing",
+        "Refreshing citrus scent",
+        "Suitable for daily use"
+      ],
+      "stock": 200
+    },
+    {
+      "id": 603,
+      "catID": 6,
+      "title": "Sunscreen",
+      "description": "Broad spectrum sunscreen with high SPF for protection against UV rays.",
+      "image": "https://images.pexels.com/photos/6479209/pexels-photo-6479209.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SS032",
+      "price": 14.99,
+      "sku": "SS032-3200",
+      "specs": [
+        "SPF: '50'",
+        "Size: '4 oz'",
+        "Water-resistant: 'Yes'",
+        "Type: 'Mineral sunscreen'",
+        "Color: 'White'"
+      ],
+      "features": [
+        "Broad spectrum",
+        "Water-resistant",
+        "Non-comedogenic",
+        "Gentle on skin",
+        "Protects against UVA & UVB"
+      ],
+      "stock": 150
+    },
+    {
+      "id": 604,
+      "catID": 6,
+      "title": "Toothpaste",
+      "description": "Fluoride toothpaste for strong and healthy teeth.",
+      "image": "https://images.pexels.com/photos/4498454/pexels-photo-4498454.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TP033",
+      "price": 5.99,
+      "sku": "TP033-3300",
+      "specs": [
+        "Size: '6 oz'",
+        "Fluoride: 'Yes'",
+        "Flavor: 'Mint'",
+        "Type: 'Whitening'",
+        "Suitable for: 'All ages'"
+      ],
+      "features": [
+        "Strengthens enamel",
+        "Freshens breath",
+        "Whitens teeth",
+        "Gentle formula",
+        "Prevents cavities"
+      ],
+      "stock": 250
+    },
+    {
+      "id": 605,
+      "catID": 6,
+      "title": "Face Wash",
+      "description": "Gentle face wash for clean and clear skin.",
+      "image": "https://images.pexels.com/photos/4498333/pexels-photo-4498333.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "FW034",
+      "price": 8.99,
+      "sku": "FW034-3400",
+      "specs": [
+        "Size: '8 oz'",
+        "Ingredients: 'Natural'",
+        "Fragrance: 'Cucumber'",
+        "Type: 'Foaming'",
+        "Suitable for: 'Sensitive skin'"
+      ],
+      "features": [
+        "Gentle",
+        "Effective",
+        "Natural ingredients",
+        "Non-drying",
+        "Refreshing"
+      ],
+      "stock": 190
+    },
+    {
+      "id": 606,
+      "catID": 6,
+      "title": "Makeup Kit",
+      "description": "Complete makeup kit with a variety of essential products.",
+      "image": "https://images.pexels.com/photos/976878/pexels-photo-976878.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "MK035",
+      "price": 49.99,
+      "sku": "MK035-3500",
+      "specs": [
+        "Items: 'Assorted'",
+        "Type: 'Professional grade'",
+        "Storage: 'Compact case'",
+        "Skin Type: 'All'",
+        "Brushes: '8 included'"
+      ],
+      "features": [
+        "Variety of colors",
+        "High quality",
+        "Long-lasting",
+        "Easy to apply",
+        "Travel-friendly"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 607,
+      "catID": 6,
+      "title": "Vitamins",
+      "description": "Essential vitamins for overall health and wellness.",
+      "image": "https://images.pexels.com/photos/4041394/pexels-photo-4041394.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "VI036",
+      "price": 19.99,
+      "sku": "VI036-3600",
+      "specs": [
+        "Count: '60'",
+        "Type: 'Multivitamin'",
+        "Serving Size: '2 per day'",
+        "Ingredients: 'Natural'",
+        "Packaging: 'Plastic bottle'"
+      ],
+      "features": [
+        "Essential nutrients",
+        "Supports immunity",
+        "Boosts energy",
+        "Promotes overall health",
+        "Easy to swallow"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 608,
+      "catID": 6,
+      "title": "Hand Sanitizer",
+      "description": "Effective hand sanitizer for killing germs and bacteria.",
+      "image": "https://images.pexels.com/photos/6621132/pexels-photo-6621132.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "HS037",
+      "price": 4.99,
+      "sku": "HS037-3700",
+      "specs": [
+        "Size: '2 oz'",
+        "Alcohol Content: '70%'",
+        "Packaging: 'Bottle with cap'",
+        "Fragrance: 'Unscented'",
+        "Skin Type: 'All types'"
+      ],
+      "features": [
+        "Kills germs",
+        "Convenient",
+        "Non-drying",
+        "Quick-drying",
+        "Portable"
+      ],
+      "stock": 300
+    },
+    {
+      "id": 609,
+      "catID": 6,
+      "title": "Lip Balm",
+      "description": "Moisturizing lip balm to protect against dry and chapped lips.",
+      "image": "https://images.pexels.com/photos/5949344/pexels-photo-5949344.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "LB038",
+      "price": 2.99,
+      "sku": "LB038-3800",
+      "specs": [
+        "Flavor: 'Assorted'",
+        "Ingredients: 'Natural'",
+        "Size: '0.15 oz'",
+        "Packaging: 'Twist-up tube'",
+        "Protection: 'UV-blocking'"
+      ],
+      "features": [
+        "Moisturizing",
+        "Protective",
+        "Non-greasy",
+        "Soothing",
+        "Portable"
+      ],
+      "stock": 400
+    },
+    {
+      "id": 610,
+      "catID": 6,
+      "title": "Body Wash",
+      "description": "Gentle body wash for clean and refreshed skin.",
+      "image": "https://images.pexels.com/photos/6003380/pexels-photo-6003380.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BW039",
+      "price": 7.99,
+      "sku": "BW039-3900",
+      "specs": [
+        "Size: '16 oz'",
+        "Scent: 'Various'",
+        "Ingredients: 'Natural'",
+        "Type: 'Hydrating'",
+        "Packaging: 'Bottle with pump'"
+      ],
+      "features": [
+        "Gentle",
+        "Refreshing",
+        "Hydrating",
+        "Non-drying",
+        "Ideal for daily use"
+      ],
+      "stock": 220
+    },
+    {
+      "id": 701,
+      "catID": 7,
+      "title": "Car Wash Kit",
+      "description": "Complete car wash kit for keeping your vehicle clean and shiny.",
+      "image": "https://images.pexels.com/photos/382455/pexels-photo-382455.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CW040",
+      "price": 39.99,
+      "sku": "CW040-4000",
+      "specs": [
+        "Items: 'Assorted'",
+        "Materials: 'Microfiber, Plastic, Rubber'",
+        "Storage: 'Carry bag included'",
+        "Suitable for: 'Cars, Trucks, SUVs'",
+        "Water Usage: 'Eco-friendly'"
+      ],
+      "features": [
+        "Complete set",
+        "Easy to use",
+        "Eco-friendly",
+        "Durable materials",
+        "Convenient storage bag"
+      ],
+      "stock": 70
+    },
+    {
+      "id": 702,
+      "catID": 7,
+      "title": "Motor Oil",
+      "description": "High-quality motor oil for optimal engine performance.",
+      "image": "https://images.pexels.com/photos/134365/pexels-photo-134365.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "MO041",
+      "price": 24.99,
+      "sku": "MO041-4100",
+      "specs": [
+        "type: 'Synthetic'",
+        "size: '5 quarts'",
+        "viscosity: '5W-30'",
+        "API rating: 'SN'",
+        "flashPoint: '230°C'",
+        "material: 'Oil-based'"
+      ],
+      "features": [
+        "Optimal performance",
+        "Long-lasting",
+        "Prevents engine wear",
+        "Reduces engine sludge",
+        "Improves fuel efficiency"
+      ],
+      "stock": 100
+    },
+    {
+      "id": 703,
+      "catID": 7,
+      "title": "Car Battery",
+      "description": "Reliable car battery for starting your vehicle in all weather conditions.",
+      "image": "https://images.pexels.com/photos/372882/pexels-photo-372882.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CB042",
+      "price": 99.99,
+      "sku": "CB042-4200",
+      "specs": [
+        "voltage: '12V'",
+        "CCA: '600'",
+        "capacity: '60Ah'",
+        "size: 'Group 24F'",
+        "weight: '36 lbs'",
+        "material: 'Lead-acid'"
+      ],
+      "features": [
+        "Reliable",
+        "Durable",
+        "Works in extreme temperatures",
+        "Long-lasting charge",
+        "Maintenance-free"
+      ],
+      "stock": 50
+    },
+    {
+      "id": 704,
+      "catID": 7,
+      "title": "Tire Inflator",
+      "description": "Portable tire inflator for inflating tires on the go.",
+      "image": "https://images.pexels.com/photos/6684627/pexels-photo-6684627.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TI043",
+      "price": 29.99,
+      "sku": "TI043-4300",
+      "specs": [
+        "powerSource: '12V DC'",
+        "maxPressure: '150 PSI'",
+        "cordLength: '10 ft'",
+        "weight: '2.5 lbs'",
+        "material: 'Plastic'",
+        "included: 'Nozzles for various tires'"
+      ],
+      "features": [
+        "Portable",
+        "Easy to use",
+        "Compact design",
+        "Fast inflation",
+        "Multi-purpose for cars, bikes, and balls"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 705,
+      "catID": 7,
+      "title": "Car Vacuum Cleaner",
+      "description": "Compact car vacuum cleaner for keeping your car interior clean.",
+      "image": "https://images.pexels.com/photos/4556049/pexels-photo-4556049.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "CV044",
+      "price": 34.99,
+      "sku": "CV044-4400",
+      "specs": [
+        "powerSource: '12V DC'",
+        "cordLength: '10 ft'",
+        "suctionPower: '150W'",
+        "weight: '3 lbs'",
+        "material: 'Plastic'",
+        "attachments: 'Crevice tool, brush'"
+      ],
+      "features": [
+        "Compact",
+        "Lightweight",
+        "High suction power",
+        "Easy to store",
+        "Multi-surface use"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 706,
+      "catID": 7,
+      "title": "Car Phone Mount",
+      "description": "Secure car phone mount for hands-free use of your smartphone.",
+      "image": "https://images.pexels.com/photos/768989/pexels-photo-768989.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "PM045",
+      "price": 14.99,
+      "sku": "PM045-4500",
+      "specs": [
+        "type: 'Universal'",
+        "mountingType: 'Dashboard'",
+        "material: 'Silicone, Plastic'",
+        "dimensions: '4.5 x 3 x 2 inches'",
+        "adjustable: 'Yes'",
+        "rotation: '360°'"
+      ],
+      "features": [
+        "Secure",
+        "Adjustable",
+        "Easy to install",
+        "Fits most smartphones",
+        "Hands-free operation"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 707,
+      "catID": 7,
+      "title": "Jumper Cables",
+      "description": "Heavy-duty jumper cables for jump-starting a dead car battery.",
+      "image": "https://images.pexels.com/photos/7473303/pexels-photo-7473303.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "JC046",
+      "price": 21.99,
+      "sku": "JC046-4600",
+      "specs": [
+        "gauge: '4 AWG'",
+        "length: '20 ft'",
+        "material: 'Copper'",
+        "clamps: 'Heavy-duty alligator'",
+        "weight: '5 lbs'",
+        "temperatureRange: '-40°F to 140°F'"
+      ],
+      "features": [
+        "Heavy-duty",
+        "Durable",
+        "Weather-resistant",
+        "Long length for convenience",
+        "Corrosion-resistant clamps"
+      ],
+      "stock": 60
+    },
+    {
+      "id": 708,
+      "catID": 7,
+      "title": "Car Air Freshener",
+      "description": "Long-lasting car air freshener to keep your car smelling fresh.",
+      "image": "https://images.pexels.com/photos/8031957/pexels-photo-8031957.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "AF047",
+      "price": 3.99,
+      "sku": "AF047-4700",
+      "specs": [
+        "scent: 'Assorted'",
+        "type: 'Hanging'",
+        "dimensions: '3 x 2 inches'",
+        "duration: 'Up to 30 days'",
+        "material: 'Gel, Cardboard'"
+      ],
+      "features": [
+        "Long-lasting",
+        "Pleasant scent",
+        "Non-toxic",
+        "Easy to hang",
+        "Affordable"
+      ],
+      "stock": 300
+    },
+    {
+      "id": 709,
+      "catID": 7,
+      "title": "Car Seat Covers",
+      "description": "Protective car seat covers to keep your seats clean and comfortable.",
+      "image": "https://images.pexels.com/photos/8479355/pexels-photo-8479355.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SC048",
+      "price": 59.99,
+      "sku": "SC048-4800",
+      "specs": [
+        "material: 'Polyester'",
+        "set: 'Front and Rear'",
+        "dimensions: 'Universal Fit'",
+        "weight: '1.5 lbs'",
+        "washable: 'Yes'",
+        "color: 'Black'"
+      ],
+      "features": [
+        "Protective",
+        "Comfortable",
+        "Machine washable",
+        "Water-resistant",
+        "Easy to install"
+      ],
+      "stock": 45
+    },
+    {
+      "id": 710,
+      "catID": 7,
+      "title": "Car Floor Mats",
+      "description": "Durable car floor mats to protect your car's flooring.",
+      "image": "https://images.pexels.com/photos/1134207/pexels-photo-1134207.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "FM049",
+      "price": 44.99,
+      "sku": "FM049-4900",
+      "specs": [
+        "material: 'Rubber'",
+        "set: 'Front and Rear'",
+        "dimensions: 'Universal Fit'",
+        "weight: '3 lbs'",
+        "color: 'Black'",
+        "washable: 'Yes'"
+      ],
+      "features": [
+        "Durable",
+        "Easy to clean",
+        "Waterproof",
+        "Non-slip backing",
+        "Heavy-duty"
+      ],
+      "stock": 55
+    },
+    {
+      "id": 801,
+      "catID": 8,
+      "title": "Building Blocks",
+      "description": "Colorful building blocks for creative construction.",
+      "image": "https://images.pexels.com/photos/165794/pexels-photo-165794.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BB050",
+      "price": 29.99,
+      "sku": "BB050-5000",
+      "specs": [
+        "pieces: '100+'",
+        "ageRange: '3+'",
+        "material: 'Plastic'",
+        "dimensions: 'Varied Sizes'",
+        "color: 'Multicolor'"
+      ],
+      "features": [
+        "Creative",
+        "Educational",
+        "Safe for kids",
+        "Stimulates imagination",
+        "Non-toxic"
+      ],
+      "stock": 100
+    },
+    {
+      "id": 802,
+      "catID": 8,
+      "title": "Stuffed Animal",
+      "description": "Soft and cuddly stuffed animal for children of all ages.",
+      "image": "https://images.pexels.com/photos/157726/plush-toy-teddy-bear-stuffed-toy-157726.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "SA051",
+      "price": 19.99,
+      "sku": "SA051-5100",
+      "specs": [
+        "type: 'Bear'",
+        "material: 'Plush'",
+        "dimensions: '10 x 6 x 6 inches'",
+        "weight: '0.5 lbs'",
+        "color: 'Brown'",
+        "washable: 'Yes'"
+      ],
+      "features": [
+        "Soft",
+        "Cuddly",
+        "Huggable",
+        "Durable",
+        "Child-safe"
+      ],
+      "stock": 120
+    },
+    {
+      "id": 803,
+      "catID": 8,
+      "title": "Board Game",
+      "description": "Fun and engaging board game for family game night.",
+      "image": "https://images.pexels.com/photos/3886841/pexels-photo-3886841.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "BG052",
+      "price": 34.99,
+      "sku": "BG052-5200",
+      "specs": [
+        "players: '2-4'",
+        "ageRange: '8+'",
+        "dimensions: '10 x 10 x 2 inches'",
+        "material: 'Cardboard, Plastic'",
+        "gameDuration: '30-60 minutes'"
+      ],
+      "features": [
+        "Engaging",
+        "Entertaining",
+        "Strategy-based",
+        "Educational",
+        "Family-friendly"
+      ],
+      "stock": 70
+    },
+    {
+      "id": 804,
+      "catID": 8,
+      "title": "Action Figure",
+      "description": "Collectible action figure of a popular superhero.",
+      "image": "https://images.pexels.com/photos/2406147/pexels-photo-2406147.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "AF053",
+      "price": 24.99,
+      "sku": "AF053-5300",
+      "specs": [
+        "character: 'Superhero'",
+        "material: 'Plastic'",
+        "height: '6 inches'",
+        "articulation: 'Fully articulated'",
+        "packageDimensions: '8 x 4 x 2 inches'"
+      ],
+      "features": [
+        "Collectible",
+        "Detailed",
+        "Poseable",
+        "Limited edition",
+        "Durable"
+      ],
+      "stock": 90
+    },
+    {
+      "id": 805,
+      "catID": 8,
+      "title": "Puzzle",
+      "description": "Challenging puzzle for adults and children.",
+      "image": "https://images.pexels.com/photos/2257698/pexels-photo-2257698.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "PZ054",
+      "price": 17.99,
+      "sku": "PZ054-5400",
+      "specs": [
+        "pieces: '500'",
+        "theme: 'Landscape'",
+        "dimensions: '20 x 15 inches'",
+        "material: 'Cardboard'",
+        "recommendedAge: '12+'"
+      ],
+      "features": [
+        "Challenging",
+        "Relaxing",
+        "Great for family",
+        "Durable",
+        "Highly detailed"
+      ],
+      "stock": 110
+    },
+    {
+      "id": 806,
+      "catID": 8,
+      "title": "Remote Control Car",
+      "description": "Fast and maneuverable remote control car for racing fun.",
+      "image": "https://images.pexels.com/photos/39625/land-cruiser-4x4-toy-remote-controlled-39625.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "RC055",
+      "price": 44.99,
+      "sku": "RC055-5500",
+      "specs": [
+        "powerSource: 'Battery'",
+        "speed: '15 mph'",
+        "dimensions: '10 x 5 x 4 inches'",
+        "material: 'Plastic, Rubber'",
+        "batteryType: 'AA'"
+      ],
+      "features": [
+        "Fast",
+        "Maneuverable",
+        "Durable",
+        "Battery-operated",
+        "Great for racing"
+      ],
+      "stock": 60
+    },
+    {
+      "id": 807,
+      "catID": 8,
+      "title": "Doll",
+      "description": "Beautiful doll with realistic features and accessories.",
+      "image": "https://images.pexels.com/photos/186077/doll-sweet-face-cute-186077.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DL056",
+      "price": 39.99,
+      "sku": "DL056-5600",
+      "specs": [
+        "type: 'Fashion Doll'",
+        "accessories: 'Included'",
+        "height: '12 inches'",
+        "material: 'Vinyl'",
+        "features: 'Posable'"
+      ],
+      "features": [
+        "Realistic",
+        "Collectible",
+        "Posable",
+        "Fashionable",
+        "Child-friendly"
+      ],
+      "stock": 80
+    },
+    {
+      "id": 808,
+      "catID": 8,
+      "title": "Educational Toy",
+      "description": "Interactive educational toy for learning and development.",
+      "image": "https://images.pexels.com/photos/51388/stacking-cubes-toys-building-blocks-51388.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "ET057",
+      "price": 32.99,
+      "sku": "ET057-5700",
+      "specs": [
+        "ageRange: '2-5'",
+        "features: 'Interactive'",
+        "dimensions: '6 x 6 x 6 inches'",
+        "material: 'Wood'",
+        "numberOfPieces: '10'"
+      ],
+      "features": [
+        "Educational",
+        "Engaging",
+        "Interactive",
+        "Promotes creativity",
+        "Safe for kids"
+      ],
+      "stock": 115
+    },
+    {
+      "id": 809,
+      "catID": 8,
+      "title": "Toy Car",
+      "description": "Die-cast toy car model for collectors and kids.",
+      "image": "https://images.pexels.com/photos/1466874/pexels-photo-1466874.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "TC058",
+      "price": 12.99,
+      "sku": "TC058-5800",
+      "specs": [
+        "scale: '1:24'",
+        "material: 'Die-cast'",
+        "dimensions: '4 x 2 x 1.5 inches'",
+        "features: 'Detailed'",
+        "recommendedAge: '3+'"
+      ],
+      "features": [
+        "Collectible",
+        "Detailed",
+        "Die-cast",
+        "Compact",
+        "Realistic design"
+      ],
+      "stock": 135
+    },
+    {
+      "id": 810,
+      "catID": 8,
+      "title": "Drawing Set",
+      "description": "Complete drawing set for kids and adults.",
+      "image": "https://images.pexels.com/photos/3811069/pexels-photo-3811069.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "productCode": "DS059",
+      "price": 27.99,
+      "sku": "DS059-5900",
+      "specs": [
+        "items: 'Assorted'",
+        "ageRange: '5+'",
+        "material: 'Wood, Plastic, Paper'",
+        "contains: 'Pencils, Crayons, Markers, Paper'",
+        "dimensions: '9 x 12 inches'"
+      ],
+      "features": [
+        "Complete set",
+        "Versatile",
+        "Great for kids and adults",
+        "Perfect for art projects",
+        "Durable"
+      ],
+      "stock": 0
+    }
+  ]
+}
