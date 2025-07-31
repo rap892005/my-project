@@ -1,0 +1,47 @@
+1. Project Introduction:
+The project is titled "Serverless Real-Time Web Chat Application" and it focuses on building a highly scalable, efficient, and low-latency chat application deployed on AWS. The motivation behind this project is to leverage the power of serverless architecture to create a real-time communication platform that can handle numerous concurrent users without the need for managing servers. In today's market, real-time chat applications are crucial for customer support, social media, gaming, and various collaborative tools. This project aims to showcase the efficiency and scalability that serverless technologies bring to such applications.
+
+2. Modules Description:
+The project is divided into several key modules:
+
+Frontend Module: This is a React-based web interface that allows users to join the chat by setting a nickname, select a recipient, send messages, and view conversation history. It also handles the real-time display of connected users and their statuses.
+Backend Module: This module handles WebSocket connections using AWS API Gateway, processes events (connect, disconnect, send message, get messages, etc.) with AWS Lambda functions, and manages data storage with DynamoDB.
+WebSocket Connector: A custom-built module to manage WebSocket connections efficiently, ensuring that only one instance of a connection is active per client.
+Messaging Module: Handles the sending, receiving, and storing of messages. It includes features like message grouping by sender, ensuring correct message order, and storing conversation history in DynamoDB.
+Deployment Module: This module deals with deploying the front end to an S3 bucket as a static website and configuring the necessary AWS resources (API Gateway, Lambda, DynamoDB) using the Serverless framework.
+
+  3. Advantages and the Main Functionality of Your Application:
+The main functionality of the application is to facilitate real-time messaging between users over a serverless architecture, which ensures scalability and low operational costs.
+
+Advantages:
+Scalability: The use of AWS's serverless services allows the application to scale automatically with user demand.
+Cost-Efficiency: By leveraging a pay-as-you-go model, operational costs are minimized since there is no need to maintain servers.
+Real-Time Communication: The application supports instant messaging, making it ideal for applications requiring immediate user interaction.
+Low Latency: The serverless architecture ensures that messages are delivered with minimal delay.
+Ease of Deployment: The Serverless framework simplifies the deployment process, making it easier to manage and update the application.
+
+  4. Tools, Technologies, and Platform Used:
+Frontend: React, Tailwind CSS
+Backend: AWS Lambda, API Gateway, DynamoDB
+Deployment: AWS S3 for hosting, Serverless framework for infrastructure management
+Languages: TypeScript, JavaScript
+Additional Tools: WebSocket API for real-time communication, AWS CloudFormation for infrastructure as code
+
+  5. Personal Contribution and Your Role in the Project:
+I was primarily responsible for the backend development, including setting up the AWS infrastructure using the Serverless framework, writing Lambda functions to handle WebSocket events, and integrating DynamoDB for data storage. I also played a key role in designing the WebSocket connection logic and implementing the message handling system. Furthermore, I worked on the deployment process, ensuring that the front end was properly synchronized with the S3 bucket and accessible as a static website.
+
+6. Challenges in the Project:
+One of the key challenges was handling multiple connections with the same nickname, which could lead to conflicts in the chat application. I overcame this by implementing a logic that checks for existing connections and properly manages the state of each connection. Another challenge was ensuring that the chat messages were displayed correctly without causing a flicker due to the latency between the client and server. I addressed this by clearing the message state before loading new ones, thus preventing the flicker.
+
+7. The Number of People in the Project:
+The project was executed by a small team of 2 developers. I was responsible for backend development and deployment, while the other team member focused on frontend development and UI/UX design.
+
+8. Amount of Time it Took for the Project:
+The project took approximately 4 months to complete, from initial planning to final deployment. This included time spent on research, development, testing, and deploying the application to AWS.
+
+9. Improvements in the Future for the Present System:
+Future improvements could include adding support for multiple chat rooms, implementing video and voice communication, and enhancing security features like encryption for messages in transit. Additionally, integrating AI-powered chatbots to assist users or automating customer service tasks could further enhance the application's functionality.
+
+10. Drawbacks:
+While the application successfully handles real-time communication, a potential drawback is its dependency on internet connectivity. If a user experiences a network interruption, their connection may be lost, which could impact the user experience. However, this can be mitigated by implementing reconnection logic to restore the user's session as soon as the connection is re-established. Another limitation is the initial setup complexity of the serverless architecture, which requires a good understanding of AWS services and the Serverless framework.
+
